@@ -1,0 +1,137 @@
+@charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	color:#959595;
+	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+	background:url(images/bg.jpg);
+}
+html {
+	padding:0;
+	margin:0;
+}
+.main {
+	padding:0;
+	margin:0;
+	background:url(images/main_bg.jpg) repeat-y center;
+}
+.logo {
+	float:left;
+	width:400px;
+	height:86px;
+	padding:0;
+	margin:0 auto;
+}
+h1 {
+	margin:0;
+	padding:20px 0 0 0;
+	color:#636363;
+	font:bold 38px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:-2px;
+}
+h1 a, h1 a:hover {
+	color:#636363;
+	text-decoration:none;
+}
+h1 span {
+	color:#78bbe6;
+}
+h1 small {
+	padding:0 10px;
+	font:normal 12px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:normal;
+}
+h2 {
+	font:normal 24px Arial, Helvetica, sans-serif;
+	padding:8px 0;
+	margin:0;
+	color:#595959;
+}
+p {
+	margin:8px 0;
+	padding:0 0 8px 0;
+	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
+}
+p.spec {
+}
+a {
+	color:#97c950;
+	text-decoration:underline;
+}
+a.rm, a.com {
+	padding:0;
+	text-decoration:none;
+}
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
+	margin:0;
+	padding:0;
+}
+.main_resize {
+	margin:0 auto;
+	width:969px;
+}
+.header {
+	margin:0 auto;
+	width:923px;
+}
+.hbg {
+	padding:0;
+	margin:0 0 10px;
+}
+.menu_nav {
+	margin:0 0 10px;
+	padding:0;
+}
+.menu_nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+.menu_nav ul li {
+	margin:0;
+	padding:15px 5px 15px 0;
+	float:left;
+	background:url(images/menu_line.jpg) repeat-x top;
+}
+.menu_nav ul li a {
+	display:block;
+	margin:0;
+	padding:11px 25px;
+	color:#878989;
+	text-decoration:none;
+	font-size:13px;
+	line-height:16px;
+}
+.menu_nav ul li.active a, .menu_nav ul li a:hover {
+	color:#fff;
+	text-decoration:none;
+	background:#78bbe6;
+}
+.content {
+	padding:0;
+	margin:0 auto;
+	width:923px;
+}
+.mainbar {
+	margin:0;
+	padding:0;
+	float:right;
+	width:638px;
+}
+
+
+
+
+
+.mainbar .spec a {
+	padding:5px 15px;
+	background:#78bbe6;
+	color:#FFF;
+}
+
+
+
+
+
